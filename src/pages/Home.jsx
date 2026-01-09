@@ -26,7 +26,7 @@ export default function Home() {
         {/* Logo */}
         <div className="flex justify-center mt-10">
           <img
-            src="/NeroSafe Logo-01.png"
+            src="/logo.png"
             alt="NeuroSafe Logo"
             className="w-40 md:w-56 drop-shadow-lg"
           />

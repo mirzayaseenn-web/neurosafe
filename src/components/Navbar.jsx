@@ -23,7 +23,7 @@ export default function Navbar() {
       {/* Logo */}
       <Link to="/" className="flex items-center gap-2 group">
         <motion.img
-          src="/NeroSafe Logo-01.png"
+          src="/logo.png"
           alt="NeuroSafe Logo"
           className="w-9 h-9"
           whileHover={{ rotate: -3, scale: 1.05 }}
