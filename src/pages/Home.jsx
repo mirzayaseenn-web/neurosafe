@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
         {/* Logo */}
         <div className="flex justify-center mt-10">
           <img
-            src="/logo.png"
+            src={logo}
             alt="NeuroSafe Logo"
             className="w-40 md:w-56 drop-shadow-lg"
           />

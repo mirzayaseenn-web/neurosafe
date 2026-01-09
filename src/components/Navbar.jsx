@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "../assets/logo.png";
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -23,7 +25,7 @@ export default function Navbar() {
       {/* Logo */}
       <Link to="/" className="flex items-center gap-2 group">
         <motion.img
-          src="/logo.png"
+          src={logo}
           alt="NeuroSafe Logo"
           className="w-9 h-9"
           whileHover={{ rotate: -3, scale: 1.05 }}
